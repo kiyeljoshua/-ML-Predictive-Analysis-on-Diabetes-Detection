@@ -13,8 +13,6 @@
 5. [Key Findings & Insights](#key-findings--insights)
 6. [Model Results](#model-results)
 7. [Tools & Technologies](#tools--technologies)
-8. [How to Run This Project](#how-to-run-this-project)
-9. [Team](#team)
 
 ---
 
