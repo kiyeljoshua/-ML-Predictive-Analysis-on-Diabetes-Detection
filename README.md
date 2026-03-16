@@ -170,58 +170,10 @@ Each metric internally weighted: 10% Train + 40% Validation + 50% Test — prior
 
 ---
 
-## How to Run This Project
 
-### Prerequisites
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-```
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/diabetes-ml-prediction.git
-   cd diabetes-ml-prediction
-   ```
-
-2. **Add the dataset**
-   - Place `diabetes.csv` (or `Testing.csv`) in the root folder
-
-3. **Open the notebook**
-   ```bash
-   jupyter notebook Python_Notebook.ipynb
-   ```
-   Or upload to [Google Colab](https://colab.research.google.com/) and run all cells
-
-4. **Run in order**
-   - Section 1–3: Setup, Load, Preprocess
-   - Section 4–5: Descriptive stats and EDA visualizations
-   - Section 6: Train-test split
-   - Section 7: Model training and evaluation (⚠️ GridSearchCV may take several minutes)
-   - Section 8: Summary visualizations
-
-> ⚠️ **Note:** Update the file path in Cell 5 (`df = pd.read_csv(...)`) to match your local file location before running.
-
----
-
-## Team
-
-This project was completed as part of a 4-member academic team.
-
-| Role | Contribution |
-|---|---|
-| **Project Lead** | Joshua — data preprocessing, statistical analysis, model evaluation, documentation |
-| **Team Members** | Model development, EDA support, presentation |
-
-*University of Santo Tomas · BS Industrial Engineering, Operations Research & Analytics*
-
----
 
 ## License
 
 This project is for academic and portfolio purposes.
 
----
 
-*If you found this project useful or have feedback, feel free to open an issue or reach out via [LinkedIn](#).*
